@@ -1,0 +1,11 @@
+# Public-file privacy and provenance review
+
+Reviewed 2026-10-08. Scope: every file in PUBLIC_FILES.md, including hidden .gitignore, source code, Markdown and JSON. Local evaluation artifacts, temporary scripts and generated Python caches are excluded from the proposed public package.
+
+A local content scan checked email addresses, personal absolute paths, Reddit participant usernames, private-key blocks, common GitHub/OpenAI/AWS token formats, JWTs and literal secret assignments. No candidate personal data or credential values were found. A broad preliminary text search matched only the generic path-pattern detector inside validate.py; that is a test expression, not a personal filesystem path.
+
+Primary-agent content/provenance review confirmed the fixtures and example prose were created synthetically for this task. No real participant comments, user accounts, personal emails, local authoring paths, customer records or private company material were supplied to or copied into this public package. The invented product and community names are illustrative, without any assertion that those names are globally unique. The sole fixture URL uses `.invalid` and tests injection handling.
+
+SOURCES.md deliberately retains public reference-repository owners, public project/license attribution and six source/license URLs. Those are provenance citations, not the user's accounts or private company data. Together with the approved project repository link in README.md, they are the only real external links in the public package. No remote source passages or implementation code were bundled or translated; the instruction prose implements the task requirements originally. LICENSE contains the user-approved MIT license and redone2000 copyright attribution. The approved repository-owner link in README.md is also public provenance; no account email is included. Future copied/adapted contributions still require their notices.
+
+This combination of pattern scanning and provenance review supports the current publication review; it cannot prove the absence of every arbitrary secret or the ownership of future contributions. Re-scan the final package after any further edit. The user approved MIT, the redone2000 copyright attribution, and publication of the reviewed project files. Local evaluation artifacts remain excluded.
