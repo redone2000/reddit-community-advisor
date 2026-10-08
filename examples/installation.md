@@ -1,6 +1,8 @@
-# Synthetic installation example
+# Synthetic application-installation support example
 
 synthetic: true. All identities, product facts and thread text below are invented.
+
+This is a fictional application-installation question and reply analysis, not a guide to installing the Reddit Community Advisor skill. For explicit skill loading, see the [README](../README.md#quick-start).
 
 ## Input
 

@@ -1,6 +1,6 @@
 # Public files
 
-User-approved public scope: these 20 files from this project directory only. Do not upload the enclosing task directory. License: MIT, Copyright (c) 2026 redone2000.
+The public package consists of these 20 project files. Local evaluation artifacts and workspace files are outside the package. License: MIT, Copyright (c) 2026 redone2000.
 
 ```text
 .gitignore
